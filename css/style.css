@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+body{
+	font-family: 'Open Sans', serif;
+	font-size: 16px;
+	color: #000;
+}
+a{
+	color: #888888;
+	text-decoration: none;
+}
+
+h1,h2,h3,h4{
+	color:#303030 ;
+}
+.section-padding{
+	padding: 80px 0;
+}
+header{
+	background-color: #000;
+}
+
+#hero{
+	text-align: center;
+	background-image: url("../img/bg-sliders.jpg");
+	background-size: cover;
+	background-position: top center;
+	color: #FFFFFF;
+}
+#hero h3{
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-align: left;
+}
+#hero h1{
+	font-size: 55px;
+	font-weight: 700;
+	margin-top: 30px;
+	color: #FFFFFF;
+	text-align: left;
+}
+#hero img{
+	width: 300px;
+}
+.overlay{
+	padding: 120px 0;
+}
+#banners img{
+	margin-top: 20px; 
+}
+#product .slick-buttons .btn-primary{
+	font-size: 30px;
+	background-color: transparent;
+	color: #686868;
+	border: none;
+	width: 70px;
+	height: 70px;
+	line-height: 50px;
+	text-align: center;
+	padding: 0;
+}
+footer{
+	background-color:  #323232;
+	color: #898989;
+	padding: 20px 0 0 0;
+	font-size: 14px;
+	
+}
+
+footer li a{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: #171717;
+	display: block;
+	text-align: center;
+	border-radius: 100% ;
+	color: #58606B;
+	font-size: 16px;
+
+}
+footer li a:hover{
+	background-color: #000000;
+	color: #fff;
+}
+footer li a.fb:hover{
+	background-color: #3b5958;
+}
+footer li a.in:hover{
+	background-color: #B4A800;
+}
+footer li a.tw:hover{
+	background-color: #38DBD8;
+}
+footer li a.lin:hover{
+	background-color: #002C84;
+}
